@@ -110,6 +110,7 @@ hr {
 }
 
 #menu a:hover, .active a {
+	color: #f7d33f;
 }
 
 /* Page */
