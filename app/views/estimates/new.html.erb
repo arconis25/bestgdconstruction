@@ -1,0 +1,30 @@
+<!-- start page -->
+<div id="wrapper">
+<div id="page">
+		<!-- start content -->
+<div id="content">
+<div class="entry">
+<p>
+<h1><strong>Request a free estimate</strong></h1>
+<h3>Please fill out the short form below in order to request a free estimate.</h3>
+<%= simple_form_for(@estimate) do |f| %>
+  <%= f.input :name, :label => 'Your Name' %>
+  <%= f.input :email, :label => 'Email Address' %>
+  <%= f.input :home_phone, :label => 'Phone #' %>
+  <%= f.input :address1 %>
+  <%= f.input :address2 %>
+  <%= f.input :city %>
+  <%= f.input :state, :collection => states_array%>
+  <%= f.input :zip, :input_html => {:size => 13} %>
+  <%= f.input :description, :label => 'Describe Your Project' %>
+  <%= f.input :referral, :as => :radio, :collection => referral_array, :label => "How'd you hear about us?" %>
+  <p></p>
+  <%= f.button :submit, 'Submit Request'%>
+<% end %>
+</p>
+</div>
+</div>
+<br style="clear: both;" />
+</div>
+</div>
+<!-- end page -->

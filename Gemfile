@@ -14,6 +14,7 @@ gem 'factory_girl_rails', '1.0'
 # gem 'unicorn'
 gem 'annotate-models', '1.0.4'
 gem 'factory_girl_rails', '1.0'
+gem 'simple_form'
 
 # Deploy with Capistrano
 # gem 'capistrano'

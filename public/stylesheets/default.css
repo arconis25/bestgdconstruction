@@ -262,42 +262,6 @@ margin: 0 20px 20px 0;
 	text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar_wrap {
-	border-top: 1px dashed #666633;
-}
-
-#calendar caption {
-	padding-top: 5px;
-	font-weight: bold;
-}
-
-#calendar table {
-	width: 100%;
-	border: 1px solid #E8E8E8;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-#calendar thead {
-	background: #514F42;
-}
-
-#calendar tbody td {
-	border: 1px solid #514F42;
-	text-align: center;
-}
-
-#today {
-	font-weight: bold;
-}
-
-#prev {
-}
-
-#next {
-	text-align: right;
-}
 
 /* Footer */
 
@@ -374,3 +338,59 @@ margin: 0 20px 20px 0;
 	text-decoration: none;
 	color: #939393;
 }
+
+/*Simple Form CSS*/
+#estimate_form{
+  margin-left: 35px;
+}
+
+#input string email required{
+  margin: 2px 10px;
+}
+
+.simple_form label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+.simple_form div
+{
+}
+
+.simple_form div.boolean, .simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+
+.simple_form div.boolean label, .simple_form label.collection_radio {
+  float: none;
+  margin: 0;
+}
+
+.simple_form label.collection_radio {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+
+.simple_form .error {
+  clear: left;
+  margin-left: 15px;
+  font-size: 10px;
+  font-style: italic;
+  text-align: left;
+  color: #D00;
+  display: inline;
+  width: 350px;
+  padding: 0;
+}
+
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+/*end Simple Form CSS*/

@@ -4,7 +4,9 @@ SampleApp::Application.routes.draw do
   match '/flooring', :to => 'pages#flooring'
   match '/residential', :to => 'pages#residential'
   match '/commercial', :to => 'pages#commercial'
-  match '/estimates', :to => 'pages#estimates'
+  match '/estimate', :to => 'estimates#new'
+
+  resources :estimates
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
