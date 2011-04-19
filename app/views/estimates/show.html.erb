@@ -6,22 +6,14 @@
 <div class="entry">
 <p>
   <h3>Thank you, <%= @estimate.name %> for submitting your information.  We will contact you shortly to confirm your appointment.  If you have any questions in the meantime, please do not hesitate to email us at gar@bestgdconstruction.com.</h3>
-  <h6> Name</h6>
-  <%= @estimate.name %>
-  <h6> Email</h6>
-  <%= @estimate.email %>
-  <h6> Home Phone</h6>
-  <%= @estimate.home_phone %>
-  <h6> Address 1</h6>
-  <%= @estimate.address1 %>
-  <h6> Address 2</h6>
-  <%= @estimate.address2 %>
-  <h6> City, State</h6>
-  <%= @estimate.city + ", " + @estimate.state%>
-  <h6> Zip</h6>
-  <%= @estimate.zip %>
-  <h6> Description</h6>
-  <%= @estimate.description %>
+  <p><b>Name: </b> <%= @estimate.name %></p>
+  <p><b> Email: </b>  <%= @estimate.email %></p>
+  <p><b> Home Phone: </b>  <%= @estimate.home_phone %></p>
+  <p><b> Address 1: </b>  <%= @estimate.address1 %></p>
+  <p><b> Address 2: </b>  <%= @estimate.address2 %></p>
+  <p><b> City, State: </b>  <%= @estimate.city + ", " + @estimate.state%></p>
+  <p><b> Zip: </b>  <%= @estimate.zip %></p>
+  <p><b> Description: </b>  <%= @estimate.description %></p>
 </p>
 </div>
 </div>

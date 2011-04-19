@@ -11,8 +11,8 @@
   <%= f.input :name, :label => 'Your Name' %>
   <%= f.input :email, :label => 'Email Address' %>
   <%= f.input :home_phone, :label => 'Phone #' %>
-  <%= f.input :address1 %>
-  <%= f.input :address2 %>
+  <%= f.input :address1, :label => 'Address 1' %>
+  <%= f.input :address2, :label => 'Address 2'%>
   <%= f.input :city %>
   <%= f.input :state, :collection => states_array%>
   <%= f.input :zip, :input_html => {:size => 13} %>
