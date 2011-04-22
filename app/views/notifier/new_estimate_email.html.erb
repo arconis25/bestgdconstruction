@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <p>
+      Hey Gar!  <%= @estimate.name %> has requested a free estimate for Gd Construction.  The details regarding the estimate request are below:
+    </p>
+  <p><b>Name: </b> <%= @estimate.name %><br>
+  <b> Email: </b>  <%= @estimate.email %><br>
+  <b> Home Phone: </b>  <%= @estimate.home_phone %><br>
+  <b> Address 1: </b>  <%= @estimate.address1 %><br>
+  <b> Address 2: </b>  <%= @estimate.address2 %><br>
+  <b> City, State: </b>  <%= @estimate.city + ", " + @estimate.state%><br>
+  <b> Zip: </b>  <%= @estimate.zip %><br>
+  <b> Description: </b>  <%= @estimate.description %>
+  </p>
+  <p>Thanks, and have a great fucking day!<br>
+  The Estimate Notification System
+  </p>
+
+  </body>
+</html>
+

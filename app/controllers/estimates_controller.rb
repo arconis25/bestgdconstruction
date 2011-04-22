@@ -12,6 +12,7 @@ class EstimatesController < ApplicationController
   def create
     @estimate = Estimate.new(params[:estimate])
     if @estimate.save
+      Notifier.new_estimate_email(@estimate).deliver
       puts "=========== successful registration"
       puts "#{@estimate.id}"
       render :action => 'show'
