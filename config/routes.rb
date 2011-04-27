@@ -5,6 +5,7 @@ SampleApp::Application.routes.draw do
   match '/residential', :to => 'pages#residential'
   match '/commercial', :to => 'pages#commercial'
   match '/estimate', :to => 'estimates#new'
+  match '/testimonials', :to => 'pages#testimonials'
 
   resources :estimates
 

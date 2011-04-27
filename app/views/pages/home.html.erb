@@ -3,16 +3,15 @@
 	<div id="page">
 		<!-- start content -->
 		<div id="content">
-			<div class="post">
-				<p class="date">April <b>11</b></p>
-				<h2 class="title">Welcome to Our Website!</h2>
+<div class="post">
+				<p class="date"><%= Date.today.strftime("%B") %><b><%= Date.today.strftime("%d") %></b></p>
+				<br><h1> <class="title"><strong>Welcome To GD Construction</strong></h1>
 				<p </p>
 				<div class="entry">
-					<p>This is the future site of <strong>GD Construction</strong>, a locally owned and operated general construction company in Milledgeville, Georgia.  Please check back with this site soon to learn more about our full offering and to read about some of the work we have been doing in the local community.  In the meantime, if you are interested in receiving more information or getting a free quote, please contact us at (478) 456-4763 or (478) 456-1141.</p>
-				</div>
-			</div>
-			
+					<p><h4>We specialize in delivering quality general construction services to the Central Georgia community at a value to our customers.  Unlike other general construction companies, who cannot afford to work on smaller niche projects, we will tackle any job, big or small.  Our customers enjoy our personalized approach to delivering quality, professional construction and rennovation services at a value that our competitors cannot beat.  If you are interested in contacting us about an existing or potential project, please fill out our <%= link_to("free estimate request form", estimate_path) %>.  You can also just give us a call if you prefer at either or our full time phone numbers: (478) 456-4763 or (478) 456-1141.</h4></p>
+			</div>			
 		</div>
+  </div>
 		<!-- end content -->
 		<br style="clear: both;" />
 	</div>
