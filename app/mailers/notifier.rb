@@ -5,6 +5,6 @@ class Notifier < ActionMailer::Base
     @estimate = estimate
     @url = "http://bestgdconstruction.com"
     puts estimate
-    mail(:to => "gar@bestgdconstruction.com", :subject => "GD Construction -- Free Estimate Request")
+    mail(:to => "rochongar@yahoo.com", :subject => "GD Construction -- Free Estimate Request")
   end
 end
